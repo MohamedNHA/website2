@@ -1,0 +1,320 @@
+table, th, td {
+    border:1px solid black;
+  }
+
+  td, th {
+   cursor: cell;
+    width:300px;
+    height:225px;
+    opacity:.5;
+    overflow: hidden;
+}
+
+  body{                                      /* Mijn lievelings lettertype*/
+    height:1200px;
+    font-family: system-ui,'Helvetica Neue', sans-serif;
+  }
+                  /* De tabelcellen bevatten unieke en verschillende kleuren die niet veel verschillen van elkaar*/
+  td{
+    text-align: center;
+  }    
+  
+  #c1r1-tabel{
+    background-color: rgb(188, 206, 206);
+  }
+  
+  #c2r1-tabel{
+    background-color: rgb(189, 181, 181);
+  }
+
+  #c2r1-tabel img{
+    height: 195px;
+    aspect-ratio:720/480;
+  }
+  
+  #c3r1-tabel{
+    background-color: rgb(185, 148, 148);
+  }
+  
+  #c4r1-tabel{
+    background-color: rgb(186, 173, 195);
+  }
+
+  #c4r1-tabel img{
+    width:300px;
+    aspect-ratio: 400/300;
+  }
+  
+  #c1r2-tabel{
+    background-color: rgb(186, 203, 200);
+  }
+  
+  #c2r2-tabel{
+    background-color: rgb(184, 151, 161);
+    width:300px;
+  }
+  
+  #c3r2-tabel{
+    background-color: rgb(183, 172, 182);
+  }
+  
+  #c4r2-tabel{
+    background-color: rgb(179, 181, 191);
+  }
+
+  #c4r2-tabel img{
+    width:300px;
+    aspect-ratio: 275/183;
+  }
+  
+  #c1r3-tabel{
+    background-color: rgb(180, 157, 157);
+  }
+  
+  #c2r3-tabel{
+    background-color: rgb(181, 170, 172);
+  }
+  
+  #c3r3-tabel{
+    background-color: rgb(178, 187, 180);
+  }
+  
+  #c4r3-tabel{
+    background-color: rgb(187, 172, 182);
+  }
+
+  #c4r3-tabel img{
+    width:300px;
+    aspect-ratio: 630/349;
+  }
+  
+  #c1r4-tabel{
+    background-color: rgb(175, 167, 166);
+  }
+  
+  #c2r4-tabel{
+    background-color: rgb(190, 182, 172);
+  }
+  
+  #c3r4-tabel{
+    background-color: rgb(180, 157, 167);
+  }
+  
+  #c4r4-tabel {
+    background-color: rgb(187, 188, 158);
+  }
+
+  #c4r4-tabel img{
+    width:300px;
+    aspect-ratio: 293/172;
+  }
+
+ #c3r1-tabel span{
+  background-color: rgb(33, 184, 184);
+ }
+
+ #c3r2-tabel span{
+  background-color: rgb(41, 214, 214);
+}
+
+ #c3r3-tabel span{
+  background-color: rgb(27, 129, 68);
+ }
+
+ #c3r4-tabel span{
+  background-color: rgb(47, 234, 122);
+ }
+ 
+ #c1r1-tabel span{
+  background-color: rgb(28, 184, 173);
+ }
+
+ #c1r2-tabel span{
+  background-color: rgb(100, 206, 218);
+ }
+
+ #c1r3-tabel span{
+  background-color: rgb(145, 244, 143);
+ }
+
+ #c1r4-tabel span{
+  background-color: rgb(167, 236, 226);
+ }
+
+ img{
+  transition:.7s;
+ }
+
+ .info{
+  padding: 1px 3px;
+  margin-left: 10px;
+  width:19%;
+  height:900px;
+  border:3px solid grey;
+  border-radius: 25px 10px;
+ }
+
+ 
+ 
+ 
+  
+  
+  td:hover,  th:hover{
+      background-color:rgb(39, 219, 239) !important;
+      opacity:1; 
+ 
+      
+  }
+   td:hover{
+      background-color:rgb(39, 194, 225)  !important;
+
+  }
+
+  td:hover img{
+    transform:scale(.97);
+  }
+
+  th:hover img{
+    transform:scale(.97);
+  }
+
+table:hover span{
+  font-size: 1.1em;
+}
+  
+  .tabelDiv{
+   width:80%;
+    height:900px;
+    overflow:hidden;
+    outline: #479c3f solid 4px;
+    }
+
+  table{
+    width:100%;
+    height:100%;
+    transition:all 2.5s;
+    border-collapse: collapse;
+    background-size: cover;
+  }
+  
+  
+  .content{
+  display:flex;
+  }
+  #paragraaf1{
+    text-indent:10px;
+    line-height:1.5em;
+    background-color: lightgray;
+    border-radius: 25px 10px;
+    margin-bottom: 400px;
+  }
+   #paragraaf1::first-letter {
+    font-size: 150%;
+    color: #2c03d1;
+   
+  }
+  pre{
+    margin:0;
+    justify-content: center;
+  }
+
+ 
+  #galerijFooter{
+    position: fixed;
+    left: 5px;
+    right:10px;
+    bottom: 0;
+    width:99.1%;
+    height:50px;
+    background-color: #1f78cb;
+    display:grid;
+   
+  }
+  #galerijFooter p{
+    margin:auto;
+  }
+  header figure img {
+    width:auto;
+    height:140px;
+    
+    }
+    #header1{
+        width:100%;
+        height:140px;
+        background-color: rgb(20, 227, 227);
+       }
+
+    header figure{
+        margin:0;
+    }
+
+    h1{
+      color:#2c03d1;
+      letter-spacing: 4px;
+      text-align: center;
+    }
+    
+    .form-container .btn {
+      background-color: #04AA6D;
+      color: white;
+      padding: 16px 20px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      margin-bottom:10px;
+      opacity: 0.8;
+      display:block;
+     
+    }
+    .form-container textarea:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+    .form-container textarea {
+      width: 90%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background: #f1f1f1;
+      resize: none;
+      min-height: 200px;
+    }
+    .form-container {
+      max-width: 270px;
+      padding: 10px;
+      background-color: white;
+    }
+    .chat-popup {
+      display: none;
+      position: fixed;
+      bottom: 2px;
+      right: 14px;
+      border: 3px solid #f1f1f1;
+      z-index: 9;
+    }
+    .whatsappicon {
+      
+      border: none;
+      cursor: pointer;
+      opacity: 0.8;
+      position: fixed;
+      bottom: 23px;
+      right: 28px;
+      
+      
+    }
+   
+    .form-container .btn:hover, .whatsappicon:hover {
+      opacity: 1;
+    }
+    .form-container img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      cursor: pointer;
+    }
+    
+    
+    
+  
+  
