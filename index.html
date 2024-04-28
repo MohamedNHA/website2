@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rondvaartboten aan het Spaarne</title>
+    <link rel="icon"  type="image/png"  href="pics/jQuery_favicon.png"> 
+    <meta charset="utf-8">
+    <meta name="keywords" content="rondvaart, Spaarne, attractie"> 
+    <meta name="description" content="rondvaart in haarlem ">
+    <meta name="color-scheme" content="dark light">
+    <link rel="stylesheet" type="text/css" href="css/opmaakVoorTabel.css">
+    <script src="javascript/chat.js"></script>
+    </head>
+<body>
+  <header id="header1">
+    <figure>
+        <img src="pics/Smidtje.jpg" alt="Foto van het Smidtje "   title="Varen bij het Smidtje "/>
+    </figure>
+</header>
+
+<h1>Rondvaartbootjes</h1>
+<div class="content">
+<div class="tabelDiv">
+<table >  <!-- tabel met boten van het bedrijf Smidtje en andere losse boten-->
+  <tr>
+    <th id="c1r1-tabel"><span>Bedrijf</span></th>
+    <th id="c2r1-tabel"><img src="pics/Smidtje.jpg" 
+      alt="Rondvaart foto" title="rondvaart Smidtje" ></th>
+    <th id="c3r1-tabel"><span>Vrijetijdsboten</span></th>
+    <th id="c4r1-tabel"><img src="pics/vrijetijdsboten.jpg" 
+      alt=" een van de vrijetijdsboten foto" title="vrijetijdsboten" ></th>
+  </tr>
+  <tr>
+    <td id="c1r2-tabel"><span> Adriaan</span> </td>
+    <td id="c2r2-tabel"><img src="pics/Smidtje1.jpeg" 
+      alt="Rondvaart foto langs Adriaan" title="Vaarboot langs de Adriaan" ></td>
+    <td id="c3r2-tabel"><span>Vrijetijdsboot-1</span></td>
+    <td id="c4r2-tabel"><img src="pics/vrijetijdsboot-1.jpeg" 
+      alt="vrijetijdsboot-1 foto" title="vrijetijdsboot-1" ></td>
+  </tr>
+  <tr>
+    <td id="c1r3-tabel"><span >Gebouw</span></td>
+    <td id="c2r3-tabel"><img src="pics/Smidtje2.jpeg" 
+      alt="Rondvaart foto langs een antiek gebouw" title="Vaarboot langs een antiek gebouw" ></td>
+    <td id="c3r3-tabel"><span>Vrijetijdsboot-2</span></td>
+    <td id="c4r3-tabel"><img src="pics/vrijetijdsboot-2.jpg" 
+      alt="vrijetijdsboot-2 foto" title="vrijetijdsboot-2" ></td>
+  </tr>
+  <tr>
+    <td id="c1r4-tabel"><span>Museum</span></td>
+    <td id="c2r4-tabel"><img src="pics/Smidtje3.jpeg" 
+      alt="Rondvaart foto langs Tylers Museum" title="Vaarboot langs de Tylers Museum" ></td>
+    <td id="c3r4-tabel"><span>Vrijetijdsboot-3</span></td>
+    <td id="c4r4-tabel"><img src="pics/vrijetijdsboot-3.jpeg" 
+      alt="vrijetijdsboot-3 foto" title="vrijetijdsboot-3" ></td>
+  </tr>
+</table>
+</div>
+<div class="info">  <!--informatie over de tabel en onderaan informatie van Het Smidtje-->
+  <p id="paragraaf1">
+   Dit zijn een paar foto's van het bedrijfje Smidtje
+   in het stadje haarlem aan het Spaarne (de rivier).
+   Naast de bedrijsboten zie je ook op derde column 
+   vrijetijdsboten die je met een vergunning van de 
+   gemeente langs het spaarne kan varen. Het zijn wel 
+   dure boten. Misschien kosten èèn van die boten wel 
+   boven 100.000 euro.
+
+  </p>
+  <p id="paragraaf2">
+    <pre>
+Naam bedrijf: Het Smidtje.
+
+Lacatie: Haarlem.
+
+Adres:Via website met bijbehorende
+plattegrond.
+
+Contact:06-12515676 
+(fictief nummer in verband met mijn
+cursus).
+
+Kosten:Die varieren vaak wegens korting.
+
+Korting:In de zomer zijn de kosten een
+klein beetje aan hoger kant.
+  </pre>
+  </p>
+</div>
+</div>
+
+<footer id="galerijFooter">
+  <p><b> &copy;</b> 2024 Mohamed El Moussaoui. Volgt cursus als webdesigner bij NHA.</p>
+ </footer>
+ <img class="whatsappicon" onclick="openForm()" src="pics/whatsapp.png" 
+  alt="Whatsapp icon" title="Chatten">
+ 
+   
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container" onsubmit="return false;">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Een bericht</b></label>
+    <textarea type="text"  placeholder="Type een bericht.."  name="msg" required></textarea>
+
+    <button type="submit"  class="btn">verzenden</button>
+     <img src="pics/whatsapp.png" 
+      onclick="closeForm()" alt="Whatsapp icon" title="Chatten" >
+  </form>
+</div>
+
+</body>
+</html>
